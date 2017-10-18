@@ -31,7 +31,7 @@ body{
 }
 
 .indent-1 {
-    padding-left: 30px;
+    padding-left: 2rem;
 }
 h1 {
     font-size: 1.25em
@@ -42,13 +42,21 @@ h4 {
 }
 
 img {
-    animation: colorize 2s cubic-bezier(0, 0, .78, .36) 1;
-    background: transparent;
-    border: 10px solid rgba(0, 0, 0, 0.12);
-    border-radius: 4px;
+/*    animation: colorize 2s cubic-bezier(0, 0, .78, .36) 1;*/
+/*    background: transparent;*/
+/*    border: 10px solid rgba(0, 0, 0, 0.12);*/
+/*    border-radius: 4px;*/
+/*    display: block;*/
+/*    margin: 1.3em auto;*/
+    max-width: 95%;
+}
+
+.caption {
+    font-size: .8rem;
     display: block;
-    margin: 1.3em auto;
-    max-width: 90%;
+    margin: 1.3em auto;text-align: center; 
+    font-style: italic; 
+    float: left;
 }
 
 a:link {
@@ -66,3 +74,14 @@ a:hover {
 a:active {
     
 }
+
+.dashed-list {
+    
+    
+}
+
+.indent-2 {
+    padding-left: 4rem;
+}
+
+
