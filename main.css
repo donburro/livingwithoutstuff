@@ -117,23 +117,3 @@ a:active {
     border-top-style: dashed;
     border-width: thin;
 }
-
-div {
-    
-}
-
-.youtube-video {
-    position: relative;
-    padding-bottom: 56.25%;
-    padding-top: 30px;
-    height: 0;
-    overflow: hidden;
-}
-
-.youtube-video iframe, .youtube-video object, .youtube-video embed {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    heigh: 100%;
-}
