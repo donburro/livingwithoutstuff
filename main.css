@@ -7,7 +7,8 @@ body{
     margin: 1em;
     font-weight: 400;
     color: #BFBFBF;
-    line-height: 1.3em;
+    line-height: normal;
+    
 }
 
 .reading{
@@ -56,8 +57,14 @@ img {
 /*    border: 10px solid rgba(0, 0, 0, 0.12);*/
     border-radius: 4px;
     display: block;
-    margin: 1.3em auto;
+    margin: auto;
     max-width: 95%;
+    
+}
+
+#inline-image img {
+    margin-left: 1.3rem;
+    margin-right: 1.3rem;
 }
 
 .caption {
@@ -98,8 +105,9 @@ a:active {
     line-height: normal;
     border-style: solid;
     border-width: thin;
-    border-radius: 20px;
+    border-radius: 7px;
     margin: .25em;
+    display: inline-block;
 }
 #countdown {
 /*    The number to be displayed obscurely fixed to the top right of each page*/
@@ -112,8 +120,15 @@ a:active {
     text-shadow: 0px 0px white;   
 }
 
-#footnote {
+
+#footnotes {
     font-size: .8em;
     border-top-style: dashed;
     border-width: thin;
 }
+
+#update {
+/*    Nothing defined yet*/
+}
+
+
