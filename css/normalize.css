@@ -123,6 +123,8 @@ abbr[title] {
 b,
 strong {
   font-weight: inherit;
+    color: gainsboro;
+    
 }
 
 /**
