@@ -106,12 +106,23 @@ textarea {
  * Element selectors
  */
 
+
+
 body{
     font-family: Lato, Arial, sans-serif;
     margin: 1em;
     font-weight: 400;
     color: #BFBFBF;
     line-height: normal;
+}
+
+h1 {
+    font-size: 2em;
+    font-family: futura;
+}
+
+h1, h2, h3, h4, h5, h6{
+    color:whitesmoke;
 }
 
 a:link {
@@ -130,10 +141,7 @@ a:active {
     
 }
 
-h1 {
-    font-size: 2em;
-    font-family: futura;
-}
+
 
 img {
 /*    animation: colorize 2s cubic-bezier(0, 0, .78, .36) 1;*/
@@ -145,10 +153,34 @@ img {
     max-width: 95%;
 }
 
-
 /* 
  * Class selectors
  */
+
+.question{
+    font-style: italic;
+    text-align: center;
+    border-style: dotted;
+    border-width: thin;
+    max-width: 400px;
+    margin: auto;
+        
+}
+
+.emphasis-list, .texty-list{
+    padding-left: 2em;  padding-right: 2em;
+    margin-left: 2em;   margin-right: 2em;
+}
+
+.emphasis-list li, .texty-list li{
+    
+/*  padding-bottom: 1em; 
+    - The border will go around the padding */
+    margin-bottom: 1em;
+/*    It probably makes a lot of sense to, if you want to position and item, is to start with the padding, then design the border, then decide how much margin it should have to other elements. */
+    
+}
+
 
 .reading{
     background-color: #101010;
@@ -190,7 +222,7 @@ img {
 }
 
 .post {
-    max-width: 1000px;
+    max-width: 700px;
     margin: auto;
 }
 
@@ -430,3 +462,4 @@ img {
         page-break-after: avoid;
     }
 }
+
