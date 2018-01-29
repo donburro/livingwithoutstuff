@@ -177,7 +177,10 @@ img {
 /*  padding-bottom: 1em; 
     - The border will go around the padding */
     margin-bottom: 1em;
-/*    It probably makes a lot of sense to, if you want to position and item, is to start with the padding, then design the border, then decide how much margin it should have to other elements. */
+/*    It probably makes a lot of sense to, if you want to position and item, is to start with the 
+    padding, then design the 
+    border, then decide how much 
+    margin it should have to other elements. */
     
 }
 
@@ -236,6 +239,23 @@ img {
     max-width: 700px;
     margin: auto;
     font-size: 1.2rem;
+}
+
+.journal {
+/*    Padding, border, margin*/
+    
+    max-width: 450px;
+    margin: auto;
+    padding: 2rem;
+    border-style: dashed;
+    border-color: #272727;
+    border-width:thin;
+    
+    background-color: #BAB9B6;
+    color: black;
+    
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    line-height: 1.5rem
 }
 
 .inline-image img {
