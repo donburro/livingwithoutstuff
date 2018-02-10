@@ -225,6 +225,13 @@ img {
     border-width: thin;
 }
 
+.disclamer {
+    font-size: .6em;
+    border-style: solid;
+    border-width: thin;
+    
+}
+
 .content-wrap {
     max-width: 1000px;
     padding-left 48px;
