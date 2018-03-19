@@ -217,6 +217,10 @@ img {
     margin: 1.3em auto;
     text-align: center; 
     font-style: italic;
+/*
+    margin-left: 1.3rem;
+    margin-right: 1.3rem;
+*/
 }
 
 .footnotes {
@@ -269,6 +273,15 @@ img {
 .inline-image img {
     margin-left: 1.3rem;
     margin-right: 1.3rem;
+}
+
+.quote {
+/*    These are quotes. They should have a line to the left of the text*/
+    padding-left: 10px; 
+    border-left-style: solid;
+    border-left-width: thin;
+    margin-left: 5px;
+    font-style: italic;
 }
 
 /* 
@@ -496,4 +509,6 @@ img {
         page-break-after: avoid;
     }
 }
+
+
 
