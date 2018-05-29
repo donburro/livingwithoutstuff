@@ -275,6 +275,15 @@ img {
     margin-right: 1.3rem;
 }
 
+.note {
+    max-width: 500px;
+    margin: auto;
+    border-style: groove; 
+    font-size: .6em;
+    text-align: center
+    
+}
+
 .quote {
 /*    These are quotes. They should have a line to the left of the text*/
     padding-left: 10px; 
@@ -510,6 +519,3 @@ img {
         page-break-after: avoid;
     }
 }
-
-
-
