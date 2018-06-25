@@ -200,12 +200,12 @@ img {
     padding-right: 4rem;
 }
 
-.indent-3 {
+.indent-3, .i-3 {
     padding-left: 6rem;
     padding-right: 6rem;
 }
 
-.indent-4 {
+.indent-4, .i-4 {
     padding-left: 8rem;
     padding-right: 8rem;
 }
