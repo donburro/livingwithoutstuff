@@ -290,9 +290,14 @@ img {
     border-left-style: solid;
     border-left-width: thin;
     font-style: italic;
-    max-width: 500px;
+    max-width: 600px;
     margin: auto;
     
+}
+
+.quote .source {
+    text-align: right;
+    font-style: normal;
 }
 
 /* 
