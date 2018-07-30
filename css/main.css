@@ -127,6 +127,7 @@ h1, h2, h3, h4, h5, h6{
 
 a:link {
     color: yellow;
+    text-decoration: none;
 }
 
 a:visited {
@@ -134,7 +135,8 @@ a:visited {
 }
 
 a:hover {
-    color: white;
+    color: yellow;
+    text-decoration: underline;
 }
 
 a:active {
@@ -185,9 +187,24 @@ img {
 }
 
 
-.reading{
-    background-color: #101010;
-    margin: 1rem;
+.page-title{
+    font-family: Lato, Arial, sans-serif;
+    text-align: center;
+}
+
+.page-title h1, .page-title h2, .page-title h3, .page-title h4, .page-title h5, .page-title h6  {
+    margin: .5em;
+}
+
+.news {
+    font-family: "poynter","helvetica",;
+    font-size: 1.5em;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 7px;
+    margin: auto;
+    width: auto;
+    display: inline-block;
 }
 
 .indent-1, .i-1 {
@@ -270,6 +287,10 @@ img {
     line-height: 1.5rem
 }
 
+.journal h1, .journal h2, .journal h3, .journal h4, .journal h5, .journal h6 {
+    color: black;
+}
+
 .inline-image img {
     margin-left: 1.3rem;
     margin-right: 1.3rem;
@@ -308,33 +329,11 @@ img {
     font-family: "Courier New", "Courier", monospace;
 }
 
-#page-title{
-    font-family: Lato, Arial, sans-serif;
-    text-align: center;
-}
-
-#page-title h4 {
-    font-size: 1em;
-    margin: .5em;
-}
-
 #footer{
     font-family: Lato, Arial, sans-serif;
     font-size: 0.5rem;
 }
 
-
-#news-line {
-    font-family: "poynter","helvetica",;
-    font-size: 1.5em;
-    text-align: center;
-    line-height: normal;
-    border-style: solid;
-    border-width: thin;
-    border-radius: 7px;
-    margin: .25em;
-    display: inline-block;
-}
 
 #countdown {
     position: fixed;
@@ -467,10 +466,12 @@ img {
         text-shadow: none !important;
     }
 
+/*
     a,
     a:visited {
         text-decoration: underline;
     }
+*/
 
     a[href]:after {
         content: " (" attr(href) ")";
