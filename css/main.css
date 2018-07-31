@@ -116,10 +116,6 @@ body{
     line-height: normal;
 }
 
-h1 {
-    font-size: 2em;
-    font-family: futura;
-}
 
 h1, h2, h3, h4, h5, h6{
     color:whitesmoke;
@@ -188,8 +184,17 @@ img {
 
 
 .page-title{
-    font-family: Lato, Arial, sans-serif;
+    font-family: Tahoma, Arial, Verdana;
     text-align: center;
+}
+
+.intro {
+    font-family: Tahoma, Arial, Verdana;
+    font-size: .8em;
+    text-align: justify;
+}
+
+.intro ul{
 }
 
 .page-title h1, .page-title h2, .page-title h3, .page-title h4, .page-title h5, .page-title h6  {
