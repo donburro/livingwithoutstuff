@@ -229,6 +229,8 @@ img {
     font-family: Tahoma, Arial, Verdana;
     font-size: .8em;
     text-align: justify;
+    margin: auto;
+    max-width: 850px
 }
 
 .intro ul{
