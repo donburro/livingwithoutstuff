@@ -226,11 +226,17 @@ img {
 
 
 .intro {
-    font-family: Tahoma, Arial, Verdana;
-    font-size: .8em;
-    text-align: justify;
+
+    max-width: 475px;;
+    display: block;
     margin: auto;
-    max-width: 850px
+    padding: 10px;
+    border-style: double;
+    
+    text-align: center;
+    font-family: Tahoma, Arial, Verdana;
+    font-size: .6em;
+*/
 }
 
 .intro ul{
