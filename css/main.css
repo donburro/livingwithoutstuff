@@ -326,6 +326,10 @@ img {
     text-align: justify;
 }
 
+.video-list hr {
+    border-top: dotted 4px;
+}
+
 /*  The following awesome video containers made by help of Ben Marshall
  *  https://benmarshall.me/responsive-iframes/                     
  */
