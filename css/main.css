@@ -166,8 +166,8 @@ img {
 }
 
 .emphasis-list, .texty-list{
-    padding-left: 2em;  padding-right: 2em;
-    margin-left: 2em;   margin-right: 2em;
+    padding-left: 1em;  padding-right: 1em;
+    margin-left: 1em;   margin-right: 1em;
 }
 
 .emphasis-list li, .texty-list li{
