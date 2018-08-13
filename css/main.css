@@ -226,7 +226,6 @@ img {
 
 
 .intro {
-
     max-width: 475px;;
     display: block;
     margin: auto;
@@ -277,6 +276,27 @@ img {
     padding-right: 8rem;
 }
 
+table {
+    border-style: double;
+    width: 70%;
+    margin: auto;
+}
+
+th {
+    background-color: #321;
+    text-align: center;
+}
+
+td {
+    border: 1px solid #555;
+    text-align: left;
+    padding: 2px; 
+    
+}
+
+tr:nth-child(even) {
+    background-color: #333;
+}
 
 .caption {
     font-size: .8rem;
@@ -294,13 +314,19 @@ img {
     font-size: .8em;
     border-top-style: dashed;
     border-width: thin;
+    margin-top: 2em;
 }
 
-.disclamer {
-    font-size: .6em;
-    border-style: solid;
-    border-width: thin;
+.disclaimer {
+    max-width: 475px;;
+    display: block;
+    margin: auto;
+    padding: 8px;
+    border-style: double;
     
+    text-align: justify;
+    font-family: Tahoma, Arial, Verdana;
+    font-size: .6em;
 }
 
 .content-wrap {
@@ -388,8 +414,7 @@ img {
     margin: auto;
     border-style: groove; 
     font-size: .6em;
-    text-align: center
-    
+    text-align: center;
 }
 
 .quote {
