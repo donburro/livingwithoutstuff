@@ -334,19 +334,7 @@ tr:nth-child(even) {
     padding-left 48px;
 }
 
-.post {
-    max-width: 700px;
-    margin: auto;
-    text-align: justify;
-}
-
-.post-list {
-    max-width: 800px;
-    margin: auto;
-    font-size: 1.2rem;
-}
-
-.video-list {
+.post, .video-list {
     max-width: 90%;
     margin: auto;
     text-align: justify;
@@ -355,6 +343,13 @@ tr:nth-child(even) {
 .video-list hr {
     border-top: dotted 4px;
 }
+
+.post-list {
+    max-width: 800px;
+    margin: auto;
+    font-size: 1.2rem;
+}
+
 
 /*  The following awesome video containers made by help of Ben Marshall
  *  https://benmarshall.me/responsive-iframes/                     
