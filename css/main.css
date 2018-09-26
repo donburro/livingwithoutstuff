@@ -342,6 +342,8 @@ tr:nth-child(even) {
 
 .video-list hr {
     border-top: dotted 4px;
+    width: 400px;
+    margin: auto
 }
 
 .post-list {
@@ -397,6 +399,10 @@ tr:nth-child(even) {
 
 .journal h1, .journal h2, .journal h3, .journal h4, .journal h5, .journal h6 {
     color: black;
+}
+
+.tangent {    
+    
 }
 
 .inline-image img {
