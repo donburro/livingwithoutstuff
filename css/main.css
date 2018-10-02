@@ -277,24 +277,29 @@ img {
 }
 
 table {
-    border-style: double;
+    border-style: solid;
     width: 70%;
     margin: auto;
 }
 
-th {
+.number-table th {
+    text-align: center;
+    background-color: #321
+
+}
+
+.ingredient-list th {
     background-color: #321;
     text-align: center;
 }
 
-td {
-    border: 1px solid #555;
+.ingredient-list td {
+    border: 0.5px solid #555;
     text-align: left;
-    padding: 2px; 
-    
+    padding: 0px; 
 }
 
-tr:nth-child(even) {
+.ingredient-list tr:nth-child(even) {
     background-color: #333;
 }
 
