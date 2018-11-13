@@ -340,7 +340,7 @@ table {
 }
 
 .post, .video-list {
-    max-width: 90%;
+    max-width: 75%;
     margin: auto;
     text-align: justify;
 }
